@@ -1,3 +1,7 @@
 Hey..
 rocky1
+<<<<<<< .merge_file_a05472
 How are you ?
+=======
+i am pretty good , what about you ?
+>>>>>>> .merge_file_a12888
