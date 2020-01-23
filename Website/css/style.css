@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+   background-color: rgb(224, 235, 232);
+}
+
+h1{
+    color: #4ab19a;
+}
+h2{
+    color: #4ab19a;
+}
+#hi{
+    color: #4ab19a;
+}
+.row1{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #4ab19a;
+}
+#r1{
+    float:right;
+    margin-right: 50px;
+}
+#r2{
+    float:right;
+    margin-right:40px;
+}
+#r3{
+    float:right;
+    margin-right:30px;
+}

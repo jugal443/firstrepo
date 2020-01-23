@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#red{
+    background-color:red;
+    height:200px;
+    width:200px;
+    border:2px solid black;
+}
+#blue{
+    background-color:blue;
+    height:200px;
+    width:200px;
+    margin-left:204px;
+    border:5px solid black;
+}
+#green{
+    background-color:green;
+    height:200px;
+    width:200px;
+    margin-left:414px;
+    border:10px solid black;
+}
+
+#topheader{
+    color: rgb(107, 143, 107);
+    width:250px;
+}
+
+img{
+    border-radius: 50%;
+    border: solid 3px grey;
+}
+
+hr{
+    border-style:dotted;
+    size:"2";
+    border-color:#CF87E9;
+}
+
+a:hover{
+    color: maroon;
+}
+
+h1{
+    color: blue;
+    font-size:430%;
+}
+
+body{
+    background-color: #CFCCCB;
+}

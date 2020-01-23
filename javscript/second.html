@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+</head>
+<body>
+    <p id="para"> this is para</p>
+    <p>this is second</p>
+    <p>this is third</p>
+    <script>
+        //document.write("<h1>Hello world</h1>");
+
+        //var  x = prompt();
+        //console.log(x);
+
+        
+        document.querySelector("p");
+       // var ele = document.querySelector("p").style.backgroundColor="red";
+        //console.log(ele);
+        
+        console.log(document.getElementById("para"))
+        document.getElementById("para").setAttribute("style","color:blue;backgroyund-color:yellow");
+
+    var tag= document.getElementsByTagName("p");
+    console.log(typeof(tag));
+    console.log(typeof("p"));
+    console.log(tag);
+
+    var a=7;
+    var b=4;
+   // document.write(a+b);
+   // document.write("<br>");
+   // document.write(a*b);
+
+    //var a= parseInt(prompt("enter a"))
+    //var b= Number(prompt("enter b"))
+       // document.write(`Sum is : ${a+b} , Diffrence is:${a-b}`);
+        //document.write("<br>");
+        //document.write(`Product is:${a*b}`);
+
+        let bool=true;
+        console.log(typeof(bool));
+
+        let age = prompt("Enter age");
+    //    if(age>18)
+    //     {
+    //        document.write("please vote");
+    //    }
+    //     else if (age==18)
+    //    {
+    //        document.write("wait");
+    //     }
+    //     else
+    //     {
+    //        document.write("please wait till 18");
+    //     }
+
+        switch(true)
+        {
+            case age==18 : document.write("wait");
+            break;
+            case age>18 : document.write("please vote");
+            break;
+            case age<18 : document.write("Under 18 can`t vote");
+            break;
+            default : document.write("Wrong Entry");
+        }
+    </script>
+    <noscript>
+        <h1>
+            Enable your javaScript
+        </h1>
+    </noscript>
+    
+</body>
+</html>
